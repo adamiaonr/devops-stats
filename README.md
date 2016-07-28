@@ -12,7 +12,7 @@ e.g. to get the nr. of releases per day for the 'nova' repository, since Feb 1st
 
 the resulting graph is then available as a .png file in `~/workbench/devops-stats/sandbox/graph/openstack/nova.mode-gen.png`.
 
-![basic](https://gitlab.com/micro-analytics/devops-stats/raw/d9473a09fdef7a654103f1453686d8ff84dc2673/sandbox/graph/openstack/nova.mode-gen.png)
+![basic](https://raw.githubusercontent.com/adamiaonr/devops-stats/53bfaa82b12578fabafedd521084a1f2f31cffbb/examples/nova.mode-gen.png)
 
 ## nr. of commits
 if you want the nr. of commits, simply add `--commit` to the previous command:
@@ -27,7 +27,7 @@ to look into the nr. of releases of a particular folder/file, use the option `--
 the graph will show you the nr. of releases per day for the file `gitlabhq/db/schema.rb` in the 
 .png file at `~/workbench/devops-stats/sandbox/graph/gitlabhq/schema.rb.mode-folder.png`.
 
-![folder](https://gitlab.com/micro-analytics/devops-stats/raw/d9473a09fdef7a654103f1453686d8ff84dc2673/sandbox/graph/gitlab/schema.rb.mode-folder.png)
+![folder](https://raw.githubusercontent.com/adamiaonr/devops-stats/53bfaa82b12578fabafedd521084a1f2f31cffbb/examples/schema.rb.mode-folder.png)
 
 ## multiple repositories
 if you have a base directory with multiple repositories, you can use the `--project` option to generate a plot of the nr. of releases/commits per day as follows (here we show the number of commits):
@@ -36,7 +36,7 @@ if you have a base directory with multiple repositories, you can use the `--proj
 
 in this case, we have a base directory - `-repo_dir ~/workbench/openstack` - holding multiple OpenStack git repositories. by specifying the `--project` option, the script generates a graph with the nr. of commits (note the use of the `--commit` option) per day at `~/workbench/devops-stats/sandbox/graph/openstack/openstack.mode-project.png`.
 
-![project](https://gitlab.com/micro-analytics/devops-stats/raw/d9473a09fdef7a654103f1453686d8ff84dc2673/sandbox/graph/openstack/openstack.mode-project.png)
+![project](https://raw.githubusercontent.com/adamiaonr/devops-stats/53bfaa82b12578fabafedd521084a1f2f31cffbb/examples/openstack.mode-project.png)
 
 ## further information
 for further details, run `$ python devops-stats.py -h`.
